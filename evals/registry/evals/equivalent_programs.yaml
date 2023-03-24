@@ -1,0 +1,8 @@
+equivalent-programs:
+  id: equivalent-programs.dev.v0
+  metrics: [accuracy]
+
+equivalent-programs.dev.v0:
+  class: evals.elsuite.equivalent_programs:EquivalentProgram
+  args:
+    samples_jsonl: equivalent_programs/samples.jsonl
